@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <link rel="stylesheet" href="index.css" />
+
+  </head>
+  <body>
+    <div id="app">
+      <section id="now-time-wrapper">
+        <label for="now-time">현재시간</label>
+        <p id="now-time">지금시간</p>
+      </section>
+      <section id="add-alarm-wrapper">
+        <article id="time-mode-wrapper">
+          <label for="time-mode">시계모드</label>
+          <p id="time-mode">일반</p>
+        </article>
+        <article id="set-time-wrapper">
+          <label for="set-time">시간설정</label>
+          <p id="set-time">연도, 월, 일</p>
+        </article>
+        <article id="alarm-mode-wrapper">
+          <label for="alarm-mode">알람모드</label>
+          <p id="alarm-mode">일반</p>
+        </article>
+        <article id="message-wrapper">
+          <label for="message">내용</label>
+          <input type="text" id="message" />
+        </article>
+      </section>
+      <section id="alarm-list-wrapper">
+        <p>1. 03:30 출근</p>
+      </section>
+      <section id="alarm-monit-wrapper">
+        <label for="alarm-monit">메시지</label>
+        <textarea
+          name="alarm-monit"
+          id="alarm-monit"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </section>
+    </div>
+    <script src="./dist/app.js"></script>
+  </body>
+</html>
